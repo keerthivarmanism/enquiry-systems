@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #4b6cb7, #182848);
+    box-shadow: 2% rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #fff;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #ccc;
+  }
+  
+  .signup-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Increased margin for better spacing */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px; /* Reduced margin for better spacing */
+    color: #333;
+    font-weight: bold; /* Added font weight for better visibility */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 15px; /* Increased padding for bigger input boxes */
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px; /* Increased padding for bigger button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Added transition for hovering effect */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,140 @@
+h1{
+  color: #413b3b76;
+  font-size: 40px;
+}
+body{
+/* background-color: #b20404;  */
+background-image: url("https://saisoftnet.in/img/slider/slide2-3.jpg");
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Navigation Styles */
+#nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #e90909;
+height: 80px;
+padding: 0 20px;
+}
+#nav {
+  /* ... other styles */
+  justify-content: flex-start; /* Move items to the left */
+  margin-left: 50px; /* Add margin from the left */
+  /* width: 200px; Set width */
+  align-items: center; /* Center items vertically */
+}
+
+
+.nav-items {
+list-style: none;
+}
+
+.nav-items li {
+display: inline-block;
+margin-left: 20px;
+}
+
+.nav-items li a {
+color: #9c6e6e;
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s ease;
+}
+
+.nav-items li a:hover {
+color: #33c2d8;
+}
+
+/* Hero Section Styles */
+.hero {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 00vh;
+min-width: 00vh;
+padding: 0 20px;
+background-color: aqua;
+background-size: cover;
+background-position: center;
+}
+
+.hand {
+margin-right: 140px;
+}
+
+.form-box {
+  width: 420px;
+  background: #efb2b2;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(218, 14, 14, 0.1);
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  /* right: 0%; */
+  transform: translate(50%, -50%);
+}
+
+
+
+.form-box h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #45c8df; /* Change color to black */
+}
+
+.form-box h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3fa2e9; /* Change color to black */
+}
+
+.input-field {
+width: 100%;
+padding: 15px;
+margin: 10px 0;
+border: 1px solid #53adcb;
+border-radius: 5px;
+font-size: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #b0ecfc; /* Change background color to black */
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #71cdd7; /* Darken button color on hover */
+}
+
+
+.signup {
+text-align: center;
+margin-top: 20px;
+}
+
+.signup a {
+color: #333;
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s ease;
+}
+
+.signup a:hover {
+color: #4f82b8;
+}

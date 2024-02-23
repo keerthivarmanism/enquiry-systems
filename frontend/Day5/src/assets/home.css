@@ -1,0 +1,49 @@
+
+
+.home-page-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+/* Gradient CSS */
+.home-page-container {
+  background: linear-gradient(135deg, #92dfc3, #8f8283);
+}
