@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    transform: scale(1.1);
+  }
+  
+  #box1 {
+    background-color: #e74c3c;
+  }
+  
+  #box2 {
+    background-color: #2ecc71;
+  }
+  
+  #box3 {
+    background-color: #f39c12;
+  }
+  

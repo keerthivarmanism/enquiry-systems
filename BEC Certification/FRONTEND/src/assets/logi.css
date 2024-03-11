@@ -1,0 +1,95 @@
+
+
+.dell {
+  background: linear-gradient(to right,#141e30 , #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.login-box {
+  width: 320px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.login-box h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.user-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #333;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #007bff;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background: #007bff;
+  border: none;
+  padding: 15px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+.jet {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+} 
+

@@ -1,0 +1,48 @@
+
+
+.report-page {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #4d94ff, #66ccff);
+  /* color: #fff; */
+  padding: 100px;
+  margin-right: 100px;
+
+
+}
+
+.report-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-content h2 {
+  margin-top: 0;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.statistic {
+  text-align: center;
+}
+
+.enquiry-sources {
+  list-style: none;
+  padding: 0;
+}
+
+.enquiry-sources li {
+  margin-bottom: 10px;
+}
+
+
+
